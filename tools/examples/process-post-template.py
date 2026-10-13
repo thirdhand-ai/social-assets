@@ -30,26 +30,32 @@ s['1']=f'''<div class="a" style="left:0;top:0;width:1080px;height:550px;backgrou
 {board}<div class="a" style="left:150px;top:590px">{row([('01','Discovery',B),('02','Content',G),('03','Build',K)])}</div>
 <div class="a" style="left:150px;top:810px">{row([('06','Care',G),('05','Launch',K),('04','Review',B)])}</div>
 {logo(LC)}{cue('Swipe →',K)}{circuit(B)}'''
-# Slides 2-3: vertical circuit timeline with numbered nodes and cards.
-def step(n,c,t,d,ic,top,hi=False):
-    bg=G if hi else '#fff'; fg='#fff' if hi else K; sub='#fff' if hi else GR; icc='#fff' if hi else c
-    return f'''<div class="a" style="left:150px;top:{top}px;width:110px;height:110px;border-radius:50%;background:{c};color:#fff;display:flex;align-items:center;justify-content:center;font-size:44px;font-weight:800;border:6px solid {LG if not hi else LG}">{n}</div>
-<div class="a" style="left:290px;top:{top-20}px;width:640px;height:170px;background:{bg};color:{fg};display:flex;align-items:center;gap:24px;padding:0 30px">
-<div style="flex:1"><div style="font-size:40px;font-weight:800;line-height:1.1">{t}</div><div style="font-size:30px;font-weight:600;line-height:1.25;color:{sub};margin-top:8px">{d}</div></div>{ico(IC[ic],icc,60)}</div>'''
-def spine(c,y1,y2): return f'<svg class="a" style="left:0;top:0" width="1080" height="1350" aria-hidden="true"><line x1="205" y1="{y1}" x2="205" y2="{y2}" stroke="{c}" stroke-width="6"/><line x1="260" y1="{y1-14}" x2="290" y2="{y1-14}" stroke="{c}" stroke-width="4"/></svg>'
+# Slides 2-3: bold winding circuit path through three big icon nodes, zig-zag left/right.
+ROWS=[455,670,885]; LX,RX=235,845
+def node(n,c,ic,cx,cy):
+    return f'''<div class="a" style="left:{cx-90}px;top:{cy-90}px;width:180px;height:180px;border-radius:50%;background:{c};display:flex;align-items:center;justify-content:center;border:8px solid {LG}">{ico(IC[ic],'#fff',92)}</div>'''
+def label(n,t,d,cy,left,c,nc):
+    x='left:362px;text-align:left' if left else 'left:150px;text-align:right'
+    return f'<div class="a" style="{x};top:{cy}px;width:568px;transform:translateY(-50%)"><div style="font-size:44px;line-height:1;font-weight:800;color:{nc};margin-bottom:8px">{n}</div><div style="font-size:46px;line-height:1.05;font-weight:800;letter-spacing:-1px;color:{c}">{t}</div><div style="font-size:32px;font-weight:600;color:{GR};margin-top:10px;white-space:nowrap">{d}</div></div>'
+def path(c):
+    y1,y2,y3=ROWS; m1,m2=(y1+y2)//2+5,(y2+y3)//2+5
+    d=f'M{LX},{y1} V{m1-30} Q{LX},{m1} {LX+30},{m1} H{RX-30} Q{RX},{m1} {RX},{m1+30} V{m2-30} Q{RX},{m2} {RX-30},{m2} H{LX+30} Q{LX},{m2} {LX},{m2+30} V{y3}'
+    return f'<svg class="a" style="left:0;top:0" width="1080" height="1350" aria-hidden="true"><path d="{d}" fill="none" stroke="{c}" stroke-width="14" stroke-linejoin="round"/><circle cx="{(LX+RX)//2}" cy="{m1}" r="14" fill="{c}"/><circle cx="{(LX+RX)//2}" cy="{m2}" r="14" fill="{c}"/></svg>'
+def winding(items):
+    out=path(GR)
+    for i,(n,c,t,d,ic) in enumerate(items):
+        left=i%2==0; cx=LX if left else RX
+        out+=node(n,c,ic,cx,ROWS[i])+label(n,t,d,ROWS[i],left,c if n=='06' else K,c)
+    return out
 def head(k,h,kc): return f'<div class="a" style="left:150px;top:150px;width:780px"><div style="font-size:30px;font-weight:700;letter-spacing:4px;color:{kc}">{k}</div><div style="font-size:88px;line-height:1.04;font-weight:800;letter-spacing:-2px;margin-top:14px">{h}</div></div>'
-TOPS=[405,615,825]
-def steps(items):
-    return spine(GR,TOPS[0]+55,TOPS[-1]+55)+''.join(step(*it,TOPS[i]) for i,it in enumerate(items))
 s['2']=f'''<div class="a" style="inset:0;background:{LG}"></div><div class="a" style="left:0;top:0;width:24px;height:1350px;background:{B}"></div>
 {head('STEPS 01 TO 03','Before we build.',B)}
-{steps([('01',B,'Discovery','We learn your goals and pick the right package.','chat'),('02',G,'Content Collection','You send your logo, photos and services.','img'),('03',K,'Design & Development','We design it, polish the copy and build for every screen.','code')])}
+{winding([('01',B,'Discovery','Your goals. Your package.','chat'),('02',G,'Content Collection','You send logo, photos, info.','img'),('03',K,'Design & Development','Built for every screen.','code')])}
 {logo(LC)}{cue("Swipe →",K)}{circuit(B)}'''
 s['3']=f'''<div class="a" style="inset:0;background:{LG}"></div><div class="a" style="left:0;top:0;width:24px;height:1350px;background:{G}"></div>
 {head('STEPS 04 TO 06','Then we go live.',G)}
-{steps([('04',B,'Review & Revisions','You review the site and request included revisions.','eye'),('05',K,'Launch','We connect your domain, test everything and publish.','globe')])}
-{step('06',G,'Third Hand Care','We stay on: hosting, updates and monitoring.','sec',TOPS[2],True)}
-{logo(LC)}{cue('Not one and done.',K)}{circuit(G)}'''
+{winding([('04',B,'Review & Revisions','You review. We revise.','eye'),('05',K,'Launch','Domain, testing, publish.','globe'),('06',G,'Third Hand Care','Hosting, updates, monitoring.','sec')])}
+{logo(LC)}{cue('Swipe →',K)}{circuit(G)}'''
 def contact(ic,t): return f'<div style="background:#fff;color:{K};height:110px;display:flex;align-items:center;gap:26px;padding:0 32px;font-size:40px;font-weight:800;white-space:nowrap">{ico(IC[ic],B,52)}{t}</div>'
 s['4']=f'''<div class="a" style="inset:0;background:{B}"></div>
 <div class="a" style="left:150px;top:160px;width:780px;color:#fff">
@@ -59,4 +65,4 @@ s['4']=f'''<div class="a" style="inset:0;background:{B}"></div>
 <div style="font-size:40px;line-height:1.3;font-weight:600">Tell us about your business. We'll send a free, custom quote.</div>
 <div style="display:flex;flex-direction:column;gap:20px;margin-top:48px">{contact('globe','thirdhandai.com')}{contact('mail','tyler@thirdhandai.com')}</div></div>
 {logo(LW)}{cue('Link in bio',"#fff")}{circuit('#fff')}'''
-for k,v in s.items(): open(f'p9-{k}.html','w').write(wrap(v))
+for k,v in s.items(): open(f'p9b-{k}.html','w').write(wrap(v))
