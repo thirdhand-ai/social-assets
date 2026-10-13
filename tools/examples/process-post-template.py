@@ -20,25 +20,25 @@ s={}
 def chip(n,t,c): return f'<div style="background:{c};color:#fff;height:160px;padding:18px 22px;display:flex;flex-direction:column;justify-content:space-between"><div style="font-size:60px;line-height:1;font-weight:800">{n}</div><div style="font-size:32px;font-weight:800;white-space:nowrap">{t}</div></div>'
 row=lambda items:'<div style="display:grid;grid-template-columns:repeat(3,240px);gap:30px">'+''.join(chip(*i) for i in items)+'</div>'
 board=f'''<svg class="a" style="left:0;top:0" width="1080" height="1350" aria-hidden="true"><g stroke="{GR}" stroke-width="5" fill="{GR}">
-<line x1="390" y1="670" x2="420" y2="670"/><line x1="660" y1="670" x2="690" y2="670"/><line x1="810" y1="750" x2="810" y2="810"/>
-<line x1="390" y1="890" x2="420" y2="890"/><line x1="660" y1="890" x2="690" y2="890"/><circle cx="810" cy="780" r="9"/></g></svg>'''
+<line x1="390" y1="684" x2="420" y2="684"/><line x1="660" y1="684" x2="690" y2="684"/><line x1="810" y1="764" x2="810" y2="824"/>
+<line x1="390" y1="904" x2="420" y2="904"/><line x1="660" y1="904" x2="690" y2="904"/><circle cx="810" cy="794" r="9"/></g></svg>'''
 s['1']=f'''<div class="a" style="left:0;top:0;width:1080px;height:550px;background:{B}"></div>
 <div class="a" style="left:0;top:1290px;width:1080px;height:60px;background:{G}"></div>
-<div class="a" style="left:150px;top:160px;width:780px;color:#fff">
+<div class="a" style="left:150px;top:140px;width:780px;color:#fff">
 <div style="font-size:30px;font-weight:700;letter-spacing:4px">HOW WE DID IT</div>
 <div style="font-size:108px;line-height:1.02;font-weight:800;letter-spacing:-2px;margin-top:22px">First call to launch day.</div></div>
-{board}<div class="a" style="left:150px;top:590px">{row([('01','Discovery',B),('02','Content',G),('03','Build',K)])}</div>
-<div class="a" style="left:150px;top:810px">{row([('06','Care',G),('05','Launch',K),('04','Review',B)])}</div>
+{board}<div class="a" style="left:150px;top:604px">{row([('01','Discovery',B),('02','Content',G),('03','Build',K)])}</div>
+<div class="a" style="left:150px;top:824px">{row([('06','Care',G),('05','Launch',K),('04','Review',B)])}</div>
 {logo(LC)}{cue('Swipe →',K)}{circuit(B)}'''
 # Slides 2-3: bold winding circuit path through three big icon nodes, zig-zag left/right.
-ROWS=[455,670,885]; LX,RX=235,845
+ROWS=[420,655,890]; LX,RX=235,845
 def node(n,c,ic,cx,cy):
     return f'''<div class="a" style="left:{cx-90}px;top:{cy-90}px;width:180px;height:180px;border-radius:50%;background:{c};display:flex;align-items:center;justify-content:center;border:8px solid {LG}">{ico(IC[ic],'#fff',92)}</div>'''
 def label(n,t,d,cy,left,c,nc):
     x='left:362px;text-align:left' if left else 'left:150px;text-align:right'
-    return f'<div class="a" style="{x};top:{cy}px;width:568px;transform:translateY(-50%)"><div style="font-size:44px;line-height:1;font-weight:800;color:{nc};margin-bottom:8px">{n}</div><div style="font-size:46px;line-height:1.05;font-weight:800;letter-spacing:-1px;color:{c}">{t}</div><div style="font-size:32px;font-weight:600;color:{GR};margin-top:10px;white-space:nowrap">{d}</div></div>'
+    return f'<div class="a" style="{x};top:{cy}px;width:568px;transform:translateY(-50%)"><div style="font-size:44px;line-height:1;font-weight:800;color:{nc};margin-bottom:6px">{n}</div><div style="font-size:46px;line-height:1.05;font-weight:800;letter-spacing:-1px;color:{c}">{t}</div><div style="font-size:32px;font-weight:600;color:{GR};margin-top:8px;white-space:nowrap">{d}</div></div>'
 def path(c):
-    y1,y2,y3=ROWS; m1,m2=(y1+y2)//2+5,(y2+y3)//2+5
+    y1,y2,y3=ROWS; m1,m2=(y1+y2)//2,(y2+y3)//2
     d=f'M{LX},{y1} V{m1-30} Q{LX},{m1} {LX+30},{m1} H{RX-30} Q{RX},{m1} {RX},{m1+30} V{m2-30} Q{RX},{m2} {RX-30},{m2} H{LX+30} Q{LX},{m2} {LX},{m2+30} V{y3}'
     return f'<svg class="a" style="left:0;top:0" width="1080" height="1350" aria-hidden="true"><path d="{d}" fill="none" stroke="{c}" stroke-width="14" stroke-linejoin="round"/><circle cx="{(LX+RX)//2}" cy="{m1}" r="14" fill="{c}"/><circle cx="{(LX+RX)//2}" cy="{m2}" r="14" fill="{c}"/></svg>'
 def winding(items):
@@ -65,4 +65,4 @@ s['4']=f'''<div class="a" style="inset:0;background:{B}"></div>
 <div style="font-size:40px;line-height:1.3;font-weight:600">Tell us about your business. We'll send a free, custom quote.</div>
 <div style="display:flex;flex-direction:column;gap:20px;margin-top:48px">{contact('globe','thirdhandai.com')}{contact('mail','tyler@thirdhandai.com')}</div></div>
 {logo(LW)}{cue('Link in bio',"#fff")}{circuit('#fff')}'''
-for k,v in s.items(): open(f'p9b-{k}.html','w').write(wrap(v))
+for k,v in s.items(): open(f'p9c-{k}.html','w').write(wrap(v))
