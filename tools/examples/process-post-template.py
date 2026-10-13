@@ -17,19 +17,19 @@ def cue(t,c): return f'<div class="a" style="left:150px;top:1080px;transform:tra
 def circuit(c): return f'<svg class="a" style="left:0;top:0" width="1080" height="1350" aria-hidden="true"><polyline points="150,1185 620,1185 645,1205 908,1205" fill="none" stroke="{c}" stroke-width="5"/><circle cx="150" cy="1185" r="9" fill="{c}"/><circle cx="920" cy="1205" r="10" fill="none" stroke="{c}" stroke-width="5"/></svg>'
 s={}
 # Slide 1: cover. Blue headline block, six-step circuit board on white, green base strip.
-def chip(n,t,c): return f'<div style="background:{c};color:#fff;height:160px;padding:18px 22px;display:flex;flex-direction:column;justify-content:space-between"><div style="font-size:60px;line-height:1;font-weight:800">{n}</div><div style="font-size:32px;font-weight:800;white-space:nowrap">{t}</div></div>'
+def chip(n,t,c): return f'<div style="background:{c};color:#fff;height:150px;padding:16px 22px;display:flex;flex-direction:column;justify-content:space-between"><div style="font-size:60px;line-height:1;font-weight:800">{n}</div><div style="font-size:32px;font-weight:800;white-space:nowrap">{t}</div></div>'
 row=lambda items:'<div style="display:grid;grid-template-columns:repeat(3,240px);gap:30px">'+''.join(chip(*i) for i in items)+'</div>'
 board=f'''<svg class="a" style="left:0;top:0" width="1080" height="1350" aria-hidden="true"><g stroke="{GR}" stroke-width="5" fill="{GR}">
-<line x1="390" y1="684" x2="420" y2="684"/><line x1="660" y1="684" x2="690" y2="684"/><line x1="810" y1="764" x2="810" y2="824"/>
-<line x1="390" y1="904" x2="420" y2="904"/><line x1="660" y1="904" x2="690" y2="904"/><circle cx="810" cy="794" r="9"/></g></svg>'''
+<line x1="390" y1="675" x2="420" y2="675"/><line x1="660" y1="675" x2="690" y2="675"/><line x1="810" y1="750" x2="810" y2="800"/>
+<line x1="390" y1="875" x2="420" y2="875"/><line x1="660" y1="875" x2="690" y2="875"/><circle cx="810" cy="775" r="9"/></g></svg>'''
 s['1']=f'''<div class="a" style="left:0;top:0;width:1080px;height:550px;background:{B}"></div>
-<div class="a" style="left:0;top:1290px;width:1080px;height:60px;background:{G}"></div>
+<div class="a" style="left:0;top:1000px;width:1080px;height:350px;background:{K}"></div>
 <div class="a" style="left:150px;top:140px;width:780px;color:#fff">
 <div style="font-size:30px;font-weight:700;letter-spacing:4px">HOW WE DID IT</div>
 <div style="font-size:108px;line-height:1.02;font-weight:800;letter-spacing:-2px;margin-top:22px">First call to launch day.</div></div>
-{board}<div class="a" style="left:150px;top:604px">{row([('01','Discovery',B),('02','Content',G),('03','Build',K)])}</div>
-<div class="a" style="left:150px;top:824px">{row([('06','Care',G),('05','Launch',K),('04','Review',B)])}</div>
-{logo(LC)}{cue('Swipe →',K)}{circuit(B)}'''
+{board}<div class="a" style="left:150px;top:600px">{row([('01','Discovery',B),('02','Content',G),('03','Build',K)])}</div>
+<div class="a" style="left:150px;top:800px">{row([('06','Care',G),('05','Launch',B),('04','Review',G)])}</div>
+{logo(LW)}{cue('Swipe →','#fff')}{circuit('#fff')}'''
 # Slides 2-3: bold winding circuit path through three big icon nodes, zig-zag left/right.
 ROWS=[420,655,890]; LX,RX=235,845
 def node(n,c,ic,cx,cy):
@@ -65,4 +65,4 @@ s['4']=f'''<div class="a" style="inset:0;background:{B}"></div>
 <div style="font-size:40px;line-height:1.3;font-weight:600">Tell us about your business. We'll send a free, custom quote.</div>
 <div style="display:flex;flex-direction:column;gap:20px;margin-top:48px">{contact('globe','thirdhandai.com')}{contact('mail','tyler@thirdhandai.com')}</div></div>
 {logo(LW)}{cue('Link in bio',"#fff")}{circuit('#fff')}'''
-for k,v in s.items(): open(f'p9c-{k}.html','w').write(wrap(v))
+for k,v in s.items(): open(f'p9d-{k}.html','w').write(wrap(v))
