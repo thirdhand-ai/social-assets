@@ -11,9 +11,9 @@ Also check: Metricool getScheduledPosts (all dates) and the live Instagram profi
 | 6 | Google reviews: how to get more | Carousel | 5 | Scheduled | Wed 2026-10-28 12:00 PM | #googlereviews #localbusiness #smallbusiness #thirdhandai |
 | 7 | Hypothetical nail salon: AI-sorted inbox with human-review flags | Carousel | 5 | Scheduled | Thu 2026-10-29 9:00 AM | #nailsalon #aiautomation #customerservice #thirdhandai |
 | 8 | Founder post: "Honest, dependable, driven" + Tyler bio, AI levels the playing field, Third Hand Care | Carousel | 6 | Scheduled | Mon 2026-10-12 10:00 AM | #ThirdHandAI #AIAutomation #ArtificialIntelligence #WebDesign #SmallBusiness #SmallBusinessSupport #LocalBusiness #GainesvilleFL #TampaFL #StAugustineFL |
+| 9 | "How we did it": six-step client process (Discovery to Third Hand Care), circuit-trace layout | Carousel | 4 | Draft | TBD | #websitedesign #floridasmallbusiness #smallbiztips #thirdhandai |
 
 ## Ideas not yet used
-- 6-step process carousel (Discovery, Content Collection, Design & Development, Review & Revisions, Launch, Third Hand Care)
 - Packages carousel (Starter / Growth / Premium, "starting at" prices)
 - Claire voice-receptionist Reel (needs a screen recording from Tyler)
 - Client spotlight: Arena (client approved posting; site built from scratch; contact form emails owner on submit)
