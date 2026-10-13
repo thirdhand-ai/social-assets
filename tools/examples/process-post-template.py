@@ -21,13 +21,14 @@ s={}
 BAND,TXT,TILE=500,129,600
 TH,TG=150,50
 # Icon nodes: colored circle with white icon, number + label below in the same color. Columns centered at 270/540/810.
-D,LGAP=108,12
+D,LGAP=122,10
 COLS=[270,540,810]
 def inode(n,t,c,ic,cx,top):
-    return f'''<div class="a" style="left:{cx-D//2}px;top:{top}px;width:{D}px;height:{D}px;border-radius:50%;background:{c};display:flex;align-items:center;justify-content:center">{ico(IC[ic],'#fff',58)}</div>
+    return f'''<div class="a" style="left:{cx-D//2}px;top:{top}px;width:{D}px;height:{D}px;border-radius:50%;background:{c};display:flex;align-items:center;justify-content:center">{ico(IC[ic],'#fff',68)}</div>
 <div class="a" style="left:{cx-120}px;top:{top+D+LGAP}px;width:240px;text-align:center;font-size:32px;line-height:1;font-weight:800;color:{c};white-space:nowrap">{n} {t}</div>'''
 def irow(items,top): return ''.join(inode(*it,COLS[i],top) for i,it in enumerate(items))
-r1,r2=TILE,TILE+TH+TG; y1,y2=r1+D//2,r2+D//2; e=D//2
+r1,r2=TILE,TILE+TH+TG+TH-27-LGAP-D;  # keep tile-area ink at 600-950 (label ink ~27px below its box top)
+y1,y2=r1+D//2,r2+D//2; e=D//2
 board=f'''<svg class="a" style="left:0;top:0" width="1080" height="1350" aria-hidden="true"><g stroke="{GR}" stroke-width="5" fill="none">
 <line x1="{270+e+14}" y1="{y1}" x2="{540-e-14}" y2="{y1}"/><line x1="{540+e+14}" y1="{y1}" x2="{810-e-14}" y2="{y1}"/>
 <line x1="{270+e+14}" y1="{y2}" x2="{540-e-14}" y2="{y2}"/><line x1="{540+e+14}" y1="{y2}" x2="{810-e-14}" y2="{y2}"/>
@@ -76,4 +77,4 @@ s['4']=f'''<div class="a" style="inset:0;background:{B}"></div>
 <div style="font-size:40px;line-height:1.3;font-weight:600">Tell us about your business. We'll send a free, custom quote.</div>
 <div style="display:flex;flex-direction:column;gap:20px;margin-top:48px">{contact('globe','thirdhandai.com')}{contact('mail','tyler@thirdhandai.com')}</div></div>
 {logo(LW)}{cue('Link in bio',"#fff")}{circuit('#fff')}'''
-for k,v in s.items(): open(f'p9g-{k}.html','w').write(wrap(v))
+for k,v in s.items(): open(f'p9h-{k}.html','w').write(wrap(v))
