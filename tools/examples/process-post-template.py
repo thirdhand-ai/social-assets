@@ -16,23 +16,30 @@ def logo(src): return f'<img class="a" src="{src}" style="left:650px;top:{1080-4
 def cue(t,c): return f'<div class="a" style="left:150px;top:1080px;transform:translateY(-50%);font-size:34px;font-weight:800;color:{c};white-space:nowrap">{t}</div>'
 def circuit(c): return f'<svg class="a" style="left:0;top:0" width="1080" height="1350" aria-hidden="true"><polyline points="150,1185 620,1185 645,1205 908,1205" fill="none" stroke="{c}" stroke-width="5"/><circle cx="150" cy="1185" r="9" fill="{c}"/><circle cx="920" cy="1205" r="10" fill="none" stroke="{c}" stroke-width="5"/></svg>'
 s={}
-# Slide 1: cover. Blue headline block (text optically centered), six-step circuit board on white, green base strip.
+# Slide 1: cover. Blue headline block (text optically centered), six icon nodes on a circuit on white, green base strip.
 # BAND = blue height; TXT = top of text box; TILE = top of tile grid; white above tiles ~= visible white below them (to the Swipe/logo lettering).
 BAND,TXT,TILE=500,129,600
 TH,TG=150,50
-def chip(n,t,c): return f'<div style="background:{c};color:#fff;height:{TH}px;padding:16px 22px;display:flex;flex-direction:column;justify-content:space-between"><div style="font-size:60px;line-height:1;font-weight:800">{n}</div><div style="font-size:32px;font-weight:800;white-space:nowrap">{t}</div></div>'
-row=lambda items:'<div style="display:grid;grid-template-columns:repeat(3,240px);gap:30px">'+''.join(chip(*i) for i in items)+'</div>'
-c1,c2=TILE+TH//2,TILE+TH+TG+TH//2
-board=f'''<svg class="a" style="left:0;top:0" width="1080" height="1350" aria-hidden="true"><g stroke="{GR}" stroke-width="5" fill="{GR}">
-<line x1="390" y1="{c1}" x2="420" y2="{c1}"/><line x1="660" y1="{c1}" x2="690" y2="{c1}"/><line x1="810" y1="{TILE+TH}" x2="810" y2="{TILE+TH+TG}"/>
-<line x1="390" y1="{c2}" x2="420" y2="{c2}"/><line x1="660" y1="{c2}" x2="690" y2="{c2}"/><circle cx="810" cy="{TILE+TH+TG//2}" r="9"/></g></svg>'''
+# Icon nodes: colored circle with white icon, number + label below in the same color. Columns centered at 270/540/810.
+D,LGAP=108,12
+COLS=[270,540,810]
+def inode(n,t,c,ic,cx,top):
+    return f'''<div class="a" style="left:{cx-D//2}px;top:{top}px;width:{D}px;height:{D}px;border-radius:50%;background:{c};display:flex;align-items:center;justify-content:center">{ico(IC[ic],'#fff',58)}</div>
+<div class="a" style="left:{cx-120}px;top:{top+D+LGAP}px;width:240px;text-align:center;font-size:32px;line-height:1;font-weight:800;color:{c};white-space:nowrap">{n} {t}</div>'''
+def irow(items,top): return ''.join(inode(*it,COLS[i],top) for i,it in enumerate(items))
+r1,r2=TILE,TILE+TH+TG; y1,y2=r1+D//2,r2+D//2; e=D//2
+board=f'''<svg class="a" style="left:0;top:0" width="1080" height="1350" aria-hidden="true"><g stroke="{GR}" stroke-width="5" fill="none">
+<line x1="{270+e+14}" y1="{y1}" x2="{540-e-14}" y2="{y1}"/><line x1="{540+e+14}" y1="{y1}" x2="{810-e-14}" y2="{y1}"/>
+<line x1="{270+e+14}" y1="{y2}" x2="{540-e-14}" y2="{y2}"/><line x1="{540+e+14}" y1="{y2}" x2="{810-e-14}" y2="{y2}"/>
+<polyline points="{810+e+12},{y1} 920,{y1} 920,{y2} {810+e+12},{y2}"/></g>
+<circle cx="920" cy="{(y1+y2)//2}" r="9" fill="{GR}"/><circle cx="405" cy="{y1}" r="8" fill="{GR}"/><circle cx="675" cy="{y1}" r="8" fill="{GR}"/><circle cx="405" cy="{y2}" r="8" fill="{GR}"/><circle cx="675" cy="{y2}" r="8" fill="{GR}"/></svg>'''
 s['1']=f'''<div class="a" style="left:0;top:0;width:1080px;height:{BAND}px;background:{B}"></div>
 <div class="a" style="left:0;top:1290px;width:1080px;height:60px;background:{G}"></div>
 <div class="a" style="left:150px;top:{TXT}px;width:780px;color:#fff">
 <div style="font-size:30px;font-weight:700;letter-spacing:4px">HOW WE DID IT</div>
 <div style="font-size:96px;line-height:1.02;font-weight:800;letter-spacing:-2px;margin-top:18px">First call to launch day.</div></div>
-{board}<div class="a" style="left:150px;top:{TILE}px">{row([('01','Discovery',B),('02','Content',G),('03','Build',K)])}</div>
-<div class="a" style="left:150px;top:{TILE+TH+TG}px">{row([('06','Care',G),('05','Launch',K),('04','Review',B)])}</div>
+{board}{irow([('01','Discovery',B,'chat'),('02','Content',G,'img'),('03','Build',K,'code')],r1)}
+{irow([('06','Care',G,'sec'),('05','Launch',K,'globe'),('04','Review',B,'eye')],r2)}
 {logo(LC)}{cue('Swipe →',K)}{circuit(B)}'''
 # Slides 2-3: bold winding circuit path through three big icon nodes, zig-zag left/right.
 ROWS=[420,655,890]; LX,RX=235,845
@@ -49,7 +56,7 @@ def winding(items):
     out=path(GR)
     for i,(n,c,t,d,ic) in enumerate(items):
         left=i%2==0; cx=LX if left else RX
-        out+=node(n,c,ic,cx,ROWS[i])+label(n,t,d,ROWS[i],left,c if n=='06' else K,c)
+        out+=node(n,c,ic,cx,ROWS[i])+label(n,t,d,ROWS[i],left,c,c)
     return out
 def head(k,h,kc): return f'<div class="a" style="left:150px;top:150px;width:780px"><div style="font-size:30px;font-weight:700;letter-spacing:4px;color:{kc}">{k}</div><div style="font-size:88px;line-height:1.04;font-weight:800;letter-spacing:-2px;margin-top:14px">{h}</div></div>'
 s['2']=f'''<div class="a" style="inset:0;background:{LG}"></div><div class="a" style="left:0;top:0;width:24px;height:1350px;background:{B}"></div>
@@ -69,4 +76,4 @@ s['4']=f'''<div class="a" style="inset:0;background:{B}"></div>
 <div style="font-size:40px;line-height:1.3;font-weight:600">Tell us about your business. We'll send a free, custom quote.</div>
 <div style="display:flex;flex-direction:column;gap:20px;margin-top:48px">{contact('globe','thirdhandai.com')}{contact('mail','tyler@thirdhandai.com')}</div></div>
 {logo(LW)}{cue('Link in bio',"#fff")}{circuit('#fff')}'''
-for k,v in s.items(): open(f'p9f-{k}.html','w').write(wrap(v))
+for k,v in s.items(): open(f'p9g-{k}.html','w').write(wrap(v))
