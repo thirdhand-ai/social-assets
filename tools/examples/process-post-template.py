@@ -17,21 +17,22 @@ def cue(t,c): return f'<div class="a" style="left:150px;top:1080px;transform:tra
 def circuit(c): return f'<svg class="a" style="left:0;top:0" width="1080" height="1350" aria-hidden="true"><polyline points="150,1185 620,1185 645,1205 908,1205" fill="none" stroke="{c}" stroke-width="5"/><circle cx="150" cy="1185" r="9" fill="{c}"/><circle cx="920" cy="1205" r="10" fill="none" stroke="{c}" stroke-width="5"/></svg>'
 s={}
 # Slide 1: cover. Blue headline block (text optically centered), six-step circuit board on white, green base strip.
-# BAND = blue height; TXT = top of text box; TILE = top of tile grid (equal white above tiles and below them to the Swipe/logo row).
-BAND,TXT,TILE=500,129,578
-def chip(n,t,c): return f'<div style="background:{c};color:#fff;height:160px;padding:18px 22px;display:flex;flex-direction:column;justify-content:space-between"><div style="font-size:60px;line-height:1;font-weight:800">{n}</div><div style="font-size:32px;font-weight:800;white-space:nowrap">{t}</div></div>'
+# BAND = blue height; TXT = top of text box; TILE = top of tile grid; white above tiles ~= visible white below them (to the Swipe/logo lettering).
+BAND,TXT,TILE=500,129,600
+TH,TG=150,50
+def chip(n,t,c): return f'<div style="background:{c};color:#fff;height:{TH}px;padding:16px 22px;display:flex;flex-direction:column;justify-content:space-between"><div style="font-size:60px;line-height:1;font-weight:800">{n}</div><div style="font-size:32px;font-weight:800;white-space:nowrap">{t}</div></div>'
 row=lambda items:'<div style="display:grid;grid-template-columns:repeat(3,240px);gap:30px">'+''.join(chip(*i) for i in items)+'</div>'
-c1,c2=TILE+80,TILE+300
+c1,c2=TILE+TH//2,TILE+TH+TG+TH//2
 board=f'''<svg class="a" style="left:0;top:0" width="1080" height="1350" aria-hidden="true"><g stroke="{GR}" stroke-width="5" fill="{GR}">
-<line x1="390" y1="{c1}" x2="420" y2="{c1}"/><line x1="660" y1="{c1}" x2="690" y2="{c1}"/><line x1="810" y1="{TILE+160}" x2="810" y2="{TILE+220}"/>
-<line x1="390" y1="{c2}" x2="420" y2="{c2}"/><line x1="660" y1="{c2}" x2="690" y2="{c2}"/><circle cx="810" cy="{TILE+190}" r="9"/></g></svg>'''
+<line x1="390" y1="{c1}" x2="420" y2="{c1}"/><line x1="660" y1="{c1}" x2="690" y2="{c1}"/><line x1="810" y1="{TILE+TH}" x2="810" y2="{TILE+TH+TG}"/>
+<line x1="390" y1="{c2}" x2="420" y2="{c2}"/><line x1="660" y1="{c2}" x2="690" y2="{c2}"/><circle cx="810" cy="{TILE+TH+TG//2}" r="9"/></g></svg>'''
 s['1']=f'''<div class="a" style="left:0;top:0;width:1080px;height:{BAND}px;background:{B}"></div>
 <div class="a" style="left:0;top:1290px;width:1080px;height:60px;background:{G}"></div>
 <div class="a" style="left:150px;top:{TXT}px;width:780px;color:#fff">
 <div style="font-size:30px;font-weight:700;letter-spacing:4px">HOW WE DID IT</div>
 <div style="font-size:96px;line-height:1.02;font-weight:800;letter-spacing:-2px;margin-top:18px">First call to launch day.</div></div>
 {board}<div class="a" style="left:150px;top:{TILE}px">{row([('01','Discovery',B),('02','Content',G),('03','Build',K)])}</div>
-<div class="a" style="left:150px;top:{TILE+220}px">{row([('06','Care',G),('05','Launch',K),('04','Review',B)])}</div>
+<div class="a" style="left:150px;top:{TILE+TH+TG}px">{row([('06','Care',G),('05','Launch',K),('04','Review',B)])}</div>
 {logo(LC)}{cue('Swipe →',K)}{circuit(B)}'''
 # Slides 2-3: bold winding circuit path through three big icon nodes, zig-zag left/right.
 ROWS=[420,655,890]; LX,RX=235,845
@@ -68,4 +69,4 @@ s['4']=f'''<div class="a" style="inset:0;background:{B}"></div>
 <div style="font-size:40px;line-height:1.3;font-weight:600">Tell us about your business. We'll send a free, custom quote.</div>
 <div style="display:flex;flex-direction:column;gap:20px;margin-top:48px">{contact('globe','thirdhandai.com')}{contact('mail','tyler@thirdhandai.com')}</div></div>
 {logo(LW)}{cue('Link in bio',"#fff")}{circuit('#fff')}'''
-for k,v in s.items(): open(f'p9e-{k}.html','w').write(wrap(v))
+for k,v in s.items(): open(f'p9f-{k}.html','w').write(wrap(v))
