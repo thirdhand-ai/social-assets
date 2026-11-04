@@ -66,6 +66,12 @@ Also check: Metricool getScheduledPosts (all dates) and the live Instagram profi
 | 63 | Cleaners: rooms, clean types, repeat visits, arrival window; fictional Bright Home Cleaning (Media path, Design) | Carousel | 6 | Scheduled | Sun 2027-01-17 10:00 AM | #cleaningbusiness #smallbusiness #websitetips #gainesvillefl #thirdhandai |
 | 64 | Pricing on your site: fixed, starting at, packages, extras (Media path, Design) | Carousel | 6 | Scheduled | Wed 2027-01-20 10:00 AM | #pricing #smallbusiness #websitetips #gainesvillefl #thirdhandai |
 | 65 | Bakery pre-orders: sizes, order-by date, pickup, ingredients; fictional Sweet Loaf Bakery (Media path, Design) | Carousel | 6 | Scheduled | Fri 2027-01-22 10:00 AM | #bakery #preorders #smallbusiness #gainesvillefl #thirdhandai |
+| 66 | Tap-to-call: number up top, call button, text and directions, test on phone (Media path, Design) | Carousel | 6 | Scheduled | Mon 2027-01-04 10:00 AM | #websitetips #mobilefriendly #smallbusiness #gainesvillefl #thirdhandai |
+| 67 | Landscapers: service area, seasonal services, before/after, quote steps; fictional Green Line Lawn Care (Media path, Design) | Carousel | 6 | Scheduled | Sat 2027-01-09 10:00 AM | #landscaping #lawncare #smallbusiness #gainesvillefl #thirdhandai |
+| 68 | Salons: services and prices, stylists, online booking, cancel policy; fictional Studio Nine Salon (Media path, Design) | Carousel | 6 | Scheduled | Fri 2027-01-15 10:00 AM | #salon #onlinebooking #smallbusiness #gainesvillefl #thirdhandai |
+| 69 | What Google shows about you: title, description, search words, search your own name (plumber example) (Media path, Design) | Carousel | 6 | Scheduled | Tue 2027-01-19 10:00 AM | #seo #websitetips #smallbusiness #gainesvillefl #thirdhandai |
+| 70 | Photographers: portfolio first, packages, booking steps, delivery time; fictional Golden Hour Photo (Media path, Design) | Carousel | 6 | Scheduled | Sun 2027-01-24 10:00 AM | #photographer #smallbusiness #websitetips #gainesvillefl #thirdhandai |
+| 71 | 404 pages: why people land there, kind message, links back, check broken links (Media path, Design) | Carousel | 6 | Scheduled | Thu 2027-01-28 10:00 AM | #websitetips #404page #smallbusiness #gainesvillefl #thirdhandai |
 
 ## Ideas not yet used
 - Social media management: used in #17
