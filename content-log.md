@@ -72,6 +72,12 @@ Also check: Metricool getScheduledPosts (all dates) and the live Instagram profi
 | 69 | What Google shows about you: title, description, search words, search your own name (plumber example) (Media path, Design) | Carousel | 6 | Scheduled | Tue 2027-01-19 10:00 AM | #seo #websitetips #smallbusiness #gainesvillefl #thirdhandai |
 | 70 | Photographers: portfolio first, packages, booking steps, delivery time; fictional Golden Hour Photo (Media path, Design) | Carousel | 6 | Scheduled | Sun 2027-01-24 10:00 AM | #photographer #smallbusiness #websitetips #gainesvillefl #thirdhandai |
 | 71 | 404 pages: why people land there, kind message, links back, check broken links (Media path, Design) | Carousel | 6 | Scheduled | Thu 2027-01-28 10:00 AM | #websitetips #404page #smallbusiness #gainesvillefl #thirdhandai |
+| 72 | Tutors: grades, rate, online or in person, free trial; fictional Maple Tutoring. Media: 2027-02/post72-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Mon 2027-02-01 10:00 AM | #tutoring #smallbusiness #websitetips #gainesvillefl #thirdhandai |
+| 73 | AI myths #4 (series): "AI is too hard to set up" (settings clutter vs done for you, start with one task, toggles, BUSTED, myth #5 teaser). Media: 2027-02/post73-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Wed 2027-02-03 10:00 AM | #aimyths #smallbusiness #ai #gainesvillefl #thirdhandai |
+| 74 | Restaurant specials: weekly list, photo and price, end date and sold out, weekly reminder; fictional Corner Table Kitchen. Media: 2027-02/post74-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Fri 2027-02-05 10:00 AM | #restaurant #specials #smallbusiness #gainesvillefl #thirdhandai |
+| 75 | Email signups: offer, footer placement, send less, easy unsubscribe. Media: 2027-02/post75-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Mon 2027-02-08 10:00 AM | #emailmarketing #websitetips #smallbusiness #gainesvillefl #thirdhandai |
+| 76 | Do you need a blog: monthly yes or skip, short posts, fresh dates, share each post. Media: 2027-02/post76-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Wed 2027-02-10 10:00 AM | #blogging #websitetips #smallbusiness #gainesvillefl #thirdhandai |
+| 77 | Florists: Valentine's order cutoff, bouquets and prices, delivery or pickup, card message; fictional Petal & Stem Florist. Media: 2027-02/post77-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Fri 2027-02-12 10:00 AM | #florist #valentinesday #smallbusiness #gainesvillefl #thirdhandai |
 
 ## Ideas not yet used
 - Social media management: used in #17
