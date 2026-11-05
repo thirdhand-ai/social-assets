@@ -105,6 +105,12 @@ Also check: Metricool getScheduledPosts (all dates) and the live Instagram profi
 | 102 | Spring clean your website (Media: 2027-03/post102-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Sat 2027-03-20 10:00 AM | #springcleaning #smallbusiness #websitetips #gainesvillefl #thirdhandai |
 | 103 | Food trucks: help them find you (fictional Salsa on Wheels) (Media: 2027-03/post103-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Mon 2027-03-22 10:00 AM | #foodtruck #smallbusiness #websitetips #gainesvillefl #thirdhandai |
 | 104 | Reply to leads in minutes (AI automation) (Media: 2027-03/post104-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Wed 2027-03-24 10:00 AM | #aiautomation #smallbusiness #leadgeneration #gainesvillefl #thirdhandai |
+| 105 | Spas: sell the calm (fictional Calm Hands Massage) (Media: 2027-03/post105-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Fri 2027-03-26 10:00 AM | #spa #massage #smallbusiness #gainesvillefl #thirdhandai |
+| 106 | Movers: make moving simple (fictional Maple Movers) (Media: 2027-03/post106-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Sat 2027-03-27 10:00 AM | #movers #smallbusiness #websitetips #gainesvillefl #thirdhandai |
+| 107 | Easter hours: tell people early (Media: 2027-03/post107-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Sun 2027-03-28 10:00 AM | #easter #smallbusiness #websitetips #gainesvillefl #thirdhandai |
+| 108 | Color contrast: can people read it? (Media: 2027-03/post108-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Mon 2027-03-29 10:00 AM | #accessibility #webdesign #smallbusiness #gainesvillefl #thirdhandai |
+| 109 | Painters: show the before + after (fictional Fresh Coat Painting) (Media: 2027-03/post109-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Tue 2027-03-30 10:00 AM | #painter #smallbusiness #websitetips #gainesvillefl #thirdhandai |
+| 110 | They said yes: what happens next (Media: 2027-03/post110-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Wed 2027-03-31 10:00 AM | #customerservice #smallbusiness #websitetips #gainesvillefl #thirdhandai |
 
 ## Ideas not yet used
 - Social media management: used in #17
