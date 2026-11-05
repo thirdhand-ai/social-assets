@@ -98,6 +98,13 @@ Also check: Metricool getScheduledPosts (all dates) and the live Instagram profi
 | 95 | Daycares: ages and rooms, daily schedule, tuition includes, tour booking; fictional Little Sprouts Daycare. Media: 2027-03/post95-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Tue 2027-03-09 10:00 AM | #daycare #smallbusiness #websitetips #gainesvillefl #thirdhandai |
 | 96 | Analytics: visitors, sources, top pages, calls and forms. Media: 2027-03/post96-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Thu 2027-03-11 10:00 AM | #websiteanalytics #smallbusiness #websitetips #gainesvillefl #thirdhandai |
 | 97 | Pest control: what you treat, what happens, pet and kid safe, seasonal alerts; fictional Bug Out Pest Control. Media: 2027-03/post97-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Fri 2027-03-12 10:00 AM | #pestcontrol #smallbusiness #websitetips #gainesvillefl #thirdhandai |
+| 98 | Daylight saving: check your times (Media: 2027-03/post98-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Sun 2027-03-14 10:00 AM | #daylightsaving #smallbusiness #websitetips #gainesvillefl #thirdhandai |
+| 99 | Boutiques: make it easy to shop (fictional Willow & Thread) (Media: 2027-03/post99-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Mon 2027-03-15 10:00 AM | #boutique #smallbusiness #websitetips #gainesvillefl #thirdhandai |
+| 100 | St. Patrick's Day promo (Media: 2027-03/post100-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Wed 2027-03-17 10:00 AM | #stpatricksday #smallbusiness #websitetips #gainesvillefl #thirdhandai |
+| 101 | Typos cost you trust (Media: 2027-03/post101-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Thu 2027-03-18 10:00 AM | #websitetips #smallbusiness #proofreading #gainesvillefl #thirdhandai |
+| 102 | Spring clean your website (Media: 2027-03/post102-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Sat 2027-03-20 10:00 AM | #springcleaning #smallbusiness #websitetips #gainesvillefl #thirdhandai |
+| 103 | Food trucks: help them find you (fictional Salsa on Wheels) (Media: 2027-03/post103-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Mon 2027-03-22 10:00 AM | #foodtruck #smallbusiness #websitetips #gainesvillefl #thirdhandai |
+| 104 | Reply to leads in minutes (AI automation) (Media: 2027-03/post104-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Wed 2027-03-24 10:00 AM | #aiautomation #smallbusiness #leadgeneration #gainesvillefl #thirdhandai |
 
 ## Ideas not yet used
 - Social media management: used in #17
