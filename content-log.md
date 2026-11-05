@@ -126,3 +126,10 @@ Add a row the moment a post is created (status Draft), update to Scheduled/Poste
 - 2026-11-04 (Tyler): holiday posts take priority on holiday dates; move other posts to make room rather than skipping the holiday.
 
 - 2026-11-04 (Tyler approved): AI Myths #2 (Post 31) moved from Tue 2026-12-01 to Wed 2026-12-02 10:00 AM so Giving Tuesday (Post 42) takes Dec 1.
+## Facebook page (Third Hand AI page, Metricool blogId 7340140, network facebook)
+Facebook seeding plan (Tyler, 2026-11-05): copy early Instagram posts to the new page so it has credibility before outreach messages. Facebook posts are tracked here, not in the Instagram table above.
+- FB 1: Founder post (copy of IG #8, caption trimmed, link in bio replaced with thirdhandai.com). Scheduled Thu 2026-11-05 5:30 PM.
+- FB 2: What we do (websites, AI automation, ongoing support). Media: 2026-11/fb-whatwedo-slide-1..5.jpg. Design: blue panel cover with green corner circle and 3 white tiles; 01 browser plus phone mock on light blue; 02 green flow of 4 pills; 03 grey shield card plus 4 tiles; CTA blue. Scheduled Fri 2026-11-06 10:00 AM.
+- FB 3: Arena Lifestyle Homes case study (Arena approved; quote is truncated with an ellipsis exactly as in the original Oct 1 post; photos are screenshots from their live site). Media: 2026-11/fb-arena-slide-1..6.jpg. Design: kitchen photo cover with circle porch photo; 01 browser mock of their site; 02 blue 2x2 photo grid; 03 light green checklist plus 3-step flow; 04 quote card plus 3 stat tiles; CTA green. Scheduled Sat 2026-11-07 10:00 AM.
+- FB 4: Packages (Starter $500, Growth $900, Premium $1,500; Care $75/month after included period; verified on thirdhandai.com/services 2026-11-05). Media: 2026-11/fb-packages-slide-1..4.jpg. Design: light blue price staircase cover; 01 three cards; 02 green 6-tile Care grid; CTA light green. Scheduled Mon 2026-11-09 10:00 AM.
+- Next Facebook copies in order: IG #2 (Oct 14), #3 (Oct 15), #9 (Oct 19), #4 (Oct 21), #5 (Oct 22).
