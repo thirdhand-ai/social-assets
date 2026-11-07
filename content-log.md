@@ -174,3 +174,8 @@ Facebook seeding plan (Tyler, 2026-11-05): copy early Instagram posts to the new
 - GBP 31 (Sat 2026-11-28): Small Business Saturday. Media: 2026-11/gbp-sbs.jpg. Design: blue/green striped awning over a grey shop window with OPEN sign and Nov 28.
 - GBP 32 (Sun 2026-11-29): Tell your story (About page). Media: 2026-11/gbp-about.jpg. Design: browser mock of an About page with three callout pills (blue, green, black).
 - GBP 33 (Mon 2026-11-30): Cyber Monday, be ready for the click. Media: 2026-11/gbp-cyber.jpg. Design: light blue bg; Book now button with ripple rings and cursor.
+- GBP 34 (Tue 2027-03-02 10:00 AM ET): Can everyone read your site? Media: 2027-03/gbp-contrast.jpg. Design: white bg; side-by-side low-contrast vs high-contrast "Open daily 9 to 5" panels with x/check badges.
+- GBP 35 (Tue 2027-03-09): Website tune-up. Media: 2027-03/gbp-tuneup.jpg. Design: light green bg; three gears (blue Speed, green Security, black Content).
+- GBP 36 (Tue 2027-03-16, -04:00): Simple pricing. Media: 2027-03/gbp-pricing.jpg. Design: white bg; tilted price tags ($500 Starter blue, $75 Care green).
+- GBP 37 (Tue 2027-03-23): Book online. Media: 2027-03/gbp-booking.jpg. Design: light blue bg; time-slot picker card with confirm button.
+- GBP 38 (Tue 2027-03-30): FAQ. Media: 2027-03/gbp-faq.jpg. Design: light green bg; three accordion rows (blue, green open, black).
