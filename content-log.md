@@ -163,3 +163,8 @@ Facebook seeding plan (Tyler, 2026-11-05): copy early Instagram posts to the new
 - GBP 20 (Wed 2026-11-11): Veterans Day. Media: 2026-11/gbp-veterans.jpg. Design: blue band with white stars, red/white stripes, red pill (red off-kit). Thank-you only, no offer.
 - GBP 21 (Thu 2026-11-12): AI and your team (myth vs fact). Media: 2026-11/gbp-myth.jpg. Design: light blue bg; tilted black-outline MYTH card and green FACT card.
 - GBP 22 (Fri 2026-11-13): 5 website must-haves. Media: 2026-11/gbp-fivethings.jpg. Design: white bg; 5 icon circles on a connected line, big numbers and labels alternating above/below.
+- GBP 23 (Sat 2026-11-14 10:00 AM ET): Is your site fast enough? (under 3 seconds). Media: 2026-11/gbp-speed.jpg. Design: white bg; segmented gauge (grey/blue/green) with needle, Slow/Fast labels, green "Load in under 3 seconds" pill.
+- GBP 24 (Sun 2026-11-15): 3 quick wins for your Google profile. Media: 2026-11/gbp-wins.jpg. Design: light blue bg; ascending stair bars (blue, green, black) with icon circles and green flag.
+- GBP 25 (Thu 2026-11-19): Picking a domain? Media: 2026-11/gbp-domain.jpg. Design: white bg; browser address bar mock plus four icon chips (ruler, T, no-symbol, mic).
+- GBP 26 (Fri 2026-11-20): AI chat assistant. Media: 2026-11/gbp-chat.jpg. Design: chat window mock with 2:14 AM moon, grey bg.
+- GBP 27 (Sat 2026-11-21): Real photos beat stock. Media: 2026-11/gbp-photos.jpg. Design: three tilted polaroids on grey bg.
