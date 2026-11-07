@@ -168,3 +168,9 @@ Facebook seeding plan (Tyler, 2026-11-05): copy early Instagram posts to the new
 - GBP 25 (Thu 2026-11-19): Picking a domain? Media: 2026-11/gbp-domain.jpg. Design: white bg; browser address bar mock plus four icon chips (ruler, T, no-symbol, mic).
 - GBP 26 (Fri 2026-11-20): AI chat assistant. Media: 2026-11/gbp-chat.jpg. Design: chat window mock with 2:14 AM moon, grey bg.
 - GBP 27 (Sat 2026-11-21): Real photos beat stock. Media: 2026-11/gbp-photos.jpg. Design: three tilted polaroids on grey bg.
+- GBP 28 (Sun 2026-11-22 10:00 AM ET): Ready for the holiday rush? Media: 2026-11/gbp-rush.jpg. Design: light blue bg; four ON toggle-switch rows (blue, green, black, blue) with icon circles.
+- GBP 29 (Thu 2026-11-26): Thanksgiving thank-you. Media: 2026-11/gbp-thanks.jpg. Design: cream bg; leaf garlands (orange, gold, green, red; off-kit holiday palette); centered headline, orange pill, large logo. No offer.
+- GBP 30 (Fri 2026-11-27): Your site never closes. Media: 2026-11/gbp-always.jpg. Design: white bg; big blue/green day-night ring with sun, moon and 24/7.
+- GBP 31 (Sat 2026-11-28): Small Business Saturday. Media: 2026-11/gbp-sbs.jpg. Design: blue/green striped awning over a grey shop window with OPEN sign and Nov 28.
+- GBP 32 (Sun 2026-11-29): Tell your story (About page). Media: 2026-11/gbp-about.jpg. Design: browser mock of an About page with three callout pills (blue, green, black).
+- GBP 33 (Mon 2026-11-30): Cyber Monday, be ready for the click. Media: 2026-11/gbp-cyber.jpg. Design: light blue bg; Book now button with ripple rings and cursor.
