@@ -191,3 +191,15 @@ Facebook seeding plan (Tyler, 2026-11-05): copy early Instagram posts to the new
   - GBP 2026-12-20 (Sun): Make your door easy to find. Media: 2026-12/gbp-n8.jpg. Design: light green map with route, pin and headline card.
   - GBP 2026-12-24 (Thu): Happy holidays thank-you (no CTA). Media: 2026-12/gbp-n9.jpg. Design: holiday red bg; hanging gold and white ornaments.
   - GBP 2026-12-31 (Thu): Thank you for 2026 (no CTA). Media: 2026-12/gbp-n10.jpg. Design: blue bg; gold and white fireworks bursts.
+
+- GBP January batch 1 (scheduled 10:00 AM ET, approved 2026-11-08):
+  - GBP 2027-01-01 (Fri): Start the year with the right hours. Media: 2027-01/gbp-p1.jpg. Design: light blue bg; January calendar page with Jan 1 circled.
+  - GBP 2027-01-03 (Sun): Reply fast, win the job. Media: 2027-01/gbp-p2.jpg. Design: white bg; realistic silver stopwatch with red 5 min pill.
+  - GBP 2027-01-07 (Thu): List every service you offer. Media: 2027-01/gbp-p3.jpg. Design: white bg; scattered service pill tags.
+  - GBP 2027-01-09 (Sat): What shows before they scroll. Media: 2027-01/gbp-p4.jpg. Design: light green bg; browser window with dashed fold line and three checks.
+  - GBP 2027-01-14 (Thu): One page, one goal. Media: 2027-01/gbp-p5.jpg. Design: white bg; red and white target with a dart.
+  - GBP 2027-01-16 (Sat): One small update a month. Media: 2027-01/gbp-p6.jpg. Design: light blue bg; 12 filled month tiles with icons, Jan done.
+  - GBP 2027-01-18 (Mon): MLK Day hours (open or closed). Media: 2027-01/gbp-p7.jpg. Design: white bg; blue hanging sign with green Open and black Closed pills.
+  - GBP 2027-01-21 (Thu): Looks right on every screen. Media: 2027-01/gbp-p8.jpg. Design: light green bg; laptop, tablet, phone.
+  - GBP 2027-01-23 (Sat): Follow up after every job. Media: 2027-01/gbp-p9.jpg. Design: grey bg; vertical timeline of three white cards.
+  - GBP 2027-01-28 (Thu): Know what's working. Media: 2027-01/gbp-p10.jpg. Design: white bg; rising bar chart with Visitors/Calls/Forms chips.
