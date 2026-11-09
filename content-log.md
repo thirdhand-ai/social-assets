@@ -179,3 +179,15 @@ Facebook seeding plan (Tyler, 2026-11-05): copy early Instagram posts to the new
 - GBP 36 (Tue 2027-03-16, -04:00): Simple pricing. Media: 2027-03/gbp-pricing.jpg. Design: white bg; tilted price tags ($500 Starter blue, $75 Care green).
 - GBP 37 (Tue 2027-03-23): Book online. Media: 2027-03/gbp-booking.jpg. Design: light blue bg; time-slot picker card with confirm button.
 - GBP 38 (Tue 2027-03-30): FAQ. Media: 2027-03/gbp-faq.jpg. Design: light green bg; three accordion rows (blue, green open, black).
+
+- GBP December batch 2 (scheduled 10:00 AM ET, approved 2026-11-08):
+  - GBP 2026-12-02 (Tue): How a quote works. Media: 2026-12/gbp-n1.jpg. Design: white bg; three-step staircase (blue, green, black) with icon circles.
+  - GBP 2026-12-04 (Fri): 4 questions before you hire a designer. Media: 2026-12/gbp-n2.jpg. Design: grey bg; 2x2 numbered question cards (blue, green alternating).
+  - GBP 2026-12-07 (Mon): Show your reviews on your website. Media: 2026-12/gbp-n3.jpg. Design: light blue bg; tilted review card with green stars and 5.0 badge.
+  - GBP 2026-12-09 (Wed): Quote calculator. Media: 2026-12/gbp-n4.jpg. Design: white bg; green calculator with estimate screen and Get my quote key.
+  - GBP 2026-12-13 (Sun): Year-end website checklist. Media: 2026-12/gbp-n5.jpg. Design: blue bg; notepad checklist with green checks, white pill.
+  - GBP 2026-12-14 (Mon): Text reminders cut no-shows. Media: 2026-12/gbp-n6.jpg. Design: green bg; phone with text message bubbles.
+  - GBP 2026-12-19 (Sat): Find it in 3 taps. Media: 2026-12/gbp-n7.jpg. Design: light blue bg; winding dotted path with three numbered nodes.
+  - GBP 2026-12-20 (Sun): Make your door easy to find. Media: 2026-12/gbp-n8.jpg. Design: light green map with route, pin and headline card.
+  - GBP 2026-12-24 (Thu): Happy holidays thank-you (no CTA). Media: 2026-12/gbp-n9.jpg. Design: holiday red bg; hanging gold and white ornaments.
+  - GBP 2026-12-31 (Thu): Thank you for 2026 (no CTA). Media: 2026-12/gbp-n10.jpg. Design: blue bg; gold and white fireworks bursts.
