@@ -203,3 +203,15 @@ Facebook seeding plan (Tyler, 2026-11-05): copy early Instagram posts to the new
   - GBP 2027-01-21 (Thu): Looks right on every screen. Media: 2027-01/gbp-p8.jpg. Design: light green bg; laptop, tablet, phone.
   - GBP 2027-01-23 (Sat): Follow up after every job. Media: 2027-01/gbp-p9.jpg. Design: grey bg; vertical timeline of three white cards.
   - GBP 2027-01-28 (Thu): Know what's working. Media: 2027-01/gbp-p10.jpg. Design: white bg; rising bar chart with Visitors/Calls/Forms chips.
+
+- GBP January batch 2 + February batch (scheduled 10:00 AM ET, approved 2026-11-08):
+  - GBP 2027-01-06 (Wed): Pick fonts people can read. Media: 2027-01/gbp-q1.jpg. Design: light blue bg; big Aa card with three read/hard-to-read rows.
+  - GBP 2027-01-10 (Sun): Describe your photos (alt text). Media: 2027-01/gbp-q2.jpg. Design: white bg; plumber with wrench at kitchen sink illustration and green ALT bubble.
+  - GBP 2027-01-13 (Wed): Give every page a clear title. Media: 2027-01/gbp-q3.jpg. Design: light green bg; page title / section / detail tree diagram.
+  - GBP 2027-01-17 (Sun): Reply to every review. Media: 2027-01/gbp-q4.jpg. Design: grey bg; review card with threaded owner reply.
+  - GBP 2027-01-24 (Sun): Put a face on your business. Media: 2027-01/gbp-q5.jpg. Design: white bg; three tilted HELLO my name is stickers.
+  - GBP 2027-01-30 (Sat): Same info everywhere. Media: 2027-01/gbp-q6.jpg. Design: light green bg; three matching info cards (Google, Website, Social) linked by equals.
+  - GBP 2027-02-05 (Fri): Give first-timers a reason to call. Media: 2027-02/gbp-q7.jpg. Design: light blue bg; coupon ticket with % OFF stub.
+  - GBP 2027-02-12 (Fri): Confirm every inquiry. Media: 2027-02/gbp-q8.jpg. Design: white bg; three staggered confirmation notification bars.
+  - GBP 2027-02-19 (Fri): Show your proof. Media: 2027-02/gbp-q9.jpg. Design: white bg; three rosette badges (blue, green, black).
+  - GBP 2027-02-26 (Fri): Ready for spring?. Media: 2027-02/gbp-q10.jpg. Design: light blue bg; sun, daisy and two tulips on green hill.
