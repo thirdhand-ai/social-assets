@@ -111,13 +111,14 @@ Also check: Metricool getScheduledPosts (all dates) and the live Instagram profi
 | 108 | Color contrast: can people read it? (Media: 2027-03/post108-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Mon 2027-03-29 10:00 AM | #accessibility #webdesign #smallbusiness #gainesvillefl #thirdhandai |
 | 109 | Painters: show the before + after (fictional Fresh Coat Painting) (Media: 2027-03/post109-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Tue 2027-03-30 10:00 AM | #painter #smallbusiness #websitetips #gainesvillefl #thirdhandai |
 | 110 | They said yes: what happens next (Media: 2027-03/post110-slide-1..6.jpg (Design) | Carousel | 6 | Scheduled | Wed 2027-03-31 10:00 AM | #customerservice #smallbusiness #websitetips #gainesvillefl #thirdhandai |
+| 111 | Claire voice-receptionist Reel: hook (missed call = missed customer), live Zoom demo of Claire answering for Third Hand AI, close with link in bio. Caption: "Meet the newest member of your team." (no pricing, differs from video script). Edited by Claude from Tyler's clips; Tyler posts it natively in the Instagram app (not Metricool) | Reel | 1 video (~35 sec) | Ready (Tyler to post/schedule in app) | Tue 2026-11-17 10:00 AM | #aireceptionist #missedcalls #smallbusiness #aiautomation #gainesvillefl #thirdhandai |
 
 ## Ideas not yet used
 - Social media management: used in #17
 - Industry pages: dental/medical (Plume Dental Studio sample; note tools are not built for health details). Home services used in #13, gyms in #18
 - Blog post: website cost (Facebook vs website used in #14)
 - Packages carousel: Tyler already has a Compare Packages slide posted; skip
-- Claire voice-receptionist Reel (needs a screen recording from Tyler). Tyler is holding Tue 2026-11-17 10:00 AM for it; do not fill that slot
+- Claire voice-receptionist Reel: DONE as #111 (Tue 2026-11-17 10:00 AM, Tyler posts natively). Do not fill that slot
 - Client spotlight: Arena (client approved posting; site built from scratch; contact form emails owner on submit)
 
 ## Rules for new rows
