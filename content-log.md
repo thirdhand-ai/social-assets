@@ -216,3 +216,18 @@ Facebook seeding plan (Tyler, 2026-11-05): copy early Instagram posts to the new
   - GBP 2027-02-12 (Fri): Confirm every inquiry. Media: 2027-02/gbp-q8.jpg. Design: white bg; three staggered confirmation notification bars.
   - GBP 2027-02-19 (Fri): Show your proof. Media: 2027-02/gbp-q9.jpg. Design: white bg; three rosette badges (blue, green, black).
   - GBP 2027-02-26 (Fri): Ready for spring?. Media: 2027-02/gbp-q10.jpg. Design: light blue bg; sun, daisy and two tulips on green hill.
+
+## Instagram Stories (one-page, 1080x1920), approved by Tyler 2026-11-13
+- Schedule: one a day at 10:00 AM ET starting Sat 2026-11-14 (Metricool best-time data); no one-pager on Thanksgiving 11/26. Stories carry no caption. Alt text lives in the story pack (alt-text.txt).
+- S01 (Sat 11-14): Meet Tyler. Media: 2026-11/ig-story-01.jpg. Design: blue slanted block with dot texture over grey, headshot in rounded white frame, blue and green chips.
+- S02 (Sun 11-15): Still no website? Media: 2026-11/ig-story-02.jpg. Design: light blue graph-paper grid, blue top bar, green bottom bar, mock search bar with salon result cards.
+- S03 (Mon 11-16): Myth vs reality. Media: 2026-11/ig-story-03.jpg. Design: grey ruled-line top, tilted MYTH card with struck text, blue dotted bottom half.
+- S04 (Tue 11-17): Third Hand Care. Media: 2026-11/ig-story-04.jpg. Design: light green diagonal stripes, 2x2 colored tiles, slanted blue band with $75/month box.
+- S05 (Wed 11-18): Social media handled ($249/mo starting). Media: 2026-11/ig-story-05.jpg. Design: light blue horizontal bands, three tilted post tiles, checklist.
+- S06 (Thu 11-19): How it works (6 steps). Media: 2026-11/ig-story-06.jpg. Design: grey bg, dashed rail stepper with numbered circles.
+- S07 (Fri 11-20): Starter package ($500 starting). Media: 2026-11/ig-story-07.jpg. Design: slanted blue top, dotted grey, tilted white price card, green bottom wedge.
+- S08 (Sat 11-21): Talk to the person who builds it. Media: 2026-11/ig-story-08.jpg. Design: white bg, flat light green panel, three icon rows, headshot in rounded frame.
+- S09 (Sun 11-22): Make your phone number tappable. Media: 2026-11/ig-story-09.jpg. Design: light green bg, white diagonal stripe, tilted phone mock with Tap to call.
+- S10 (Mon 11-23): Pick your size (three packages). Media: 2026-11/ig-story-10.jpg. Design: light blue slanted top over white, three columns (blue, green raised, black).
+- S11 (Tue 11-24): Arena build, From no website to this. Media: 2026-11/ig-story-11.jpg. Design: light blue bg with thin inset frame, browser mock, green Built from scratch pill.
+- S12 (Wed 11-25): Let's talk about your business (CTA). Media: 2026-11/ig-story-12.jpg. Design: blue bg with subtle plus pattern, tilted white logo card.
