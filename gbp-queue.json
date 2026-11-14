@@ -1,6 +1,5 @@
 [
  {
-  "gbp": 18,
   "date": "2026-11-08",
   "time": "10:00",
   "tz": "America/New_York",
@@ -9,7 +8,6 @@
   "status": "pending"
  },
  {
-  "gbp": 19,
   "date": "2026-11-09",
   "time": "10:00",
   "tz": "America/New_York",
@@ -18,7 +16,6 @@
   "status": "pending"
  },
  {
-  "gbp": 2,
   "date": "2026-11-10",
   "time": "10:00",
   "tz": "America/New_York",
@@ -27,7 +24,6 @@
   "status": "pending"
  },
  {
-  "gbp": 20,
   "date": "2026-11-11",
   "time": "10:00",
   "tz": "America/New_York",
@@ -36,7 +32,6 @@
   "status": "pending"
  },
  {
-  "gbp": 21,
   "date": "2026-11-12",
   "time": "10:00",
   "tz": "America/New_York",
@@ -45,7 +40,6 @@
   "status": "pending"
  },
  {
-  "gbp": 22,
   "date": "2026-11-13",
   "time": "10:00",
   "tz": "America/New_York",
@@ -54,7 +48,6 @@
   "status": "pending"
  },
  {
-  "gbp": 23,
   "date": "2026-11-14",
   "time": "10:00",
   "tz": "America/New_York",
@@ -63,7 +56,6 @@
   "status": "pending"
  },
  {
-  "gbp": 24,
   "date": "2026-11-15",
   "time": "10:00",
   "tz": "America/New_York",
@@ -72,7 +64,6 @@
   "status": "pending"
  },
  {
-  "gbp": 3,
   "date": "2026-11-17",
   "time": "10:00",
   "tz": "America/New_York",
@@ -81,7 +72,6 @@
   "status": "pending"
  },
  {
-  "gbp": 25,
   "date": "2026-11-19",
   "time": "10:00",
   "tz": "America/New_York",
@@ -90,7 +80,6 @@
   "status": "pending"
  },
  {
-  "gbp": 26,
   "date": "2026-11-20",
   "time": "10:00",
   "tz": "America/New_York",
@@ -99,7 +88,6 @@
   "status": "pending"
  },
  {
-  "gbp": 27,
   "date": "2026-11-21",
   "time": "10:00",
   "tz": "America/New_York",
@@ -108,7 +96,6 @@
   "status": "pending"
  },
  {
-  "gbp": 28,
   "date": "2026-11-22",
   "time": "10:00",
   "tz": "America/New_York",
@@ -117,7 +104,6 @@
   "status": "pending"
  },
  {
-  "gbp": 4,
   "date": "2026-11-24",
   "time": "10:00",
   "tz": "America/New_York",
@@ -126,7 +112,6 @@
   "status": "pending"
  },
  {
-  "gbp": 29,
   "date": "2026-11-26",
   "time": "10:00",
   "tz": "America/New_York",
@@ -135,7 +120,6 @@
   "status": "pending"
  },
  {
-  "gbp": 30,
   "date": "2026-11-27",
   "time": "10:00",
   "tz": "America/New_York",
@@ -144,7 +128,6 @@
   "status": "pending"
  },
  {
-  "gbp": 31,
   "date": "2026-11-28",
   "time": "10:00",
   "tz": "America/New_York",
@@ -153,7 +136,6 @@
   "status": "pending"
  },
  {
-  "gbp": 32,
   "date": "2026-11-29",
   "time": "10:00",
   "tz": "America/New_York",
@@ -162,7 +144,6 @@
   "status": "pending"
  },
  {
-  "gbp": 33,
   "date": "2026-11-30",
   "time": "10:00",
   "tz": "America/New_York",
@@ -171,7 +152,6 @@
   "status": "pending"
  },
  {
-  "gbp": 5,
   "date": "2026-12-01",
   "time": "10:00",
   "tz": "America/New_York",
@@ -180,7 +160,46 @@
   "status": "pending"
  },
  {
-  "gbp": 6,
+  "date": "2026-12-02",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Getting a quote is simple. Tell us what you need, we send a clear price, and you say go. No pressure, no surprises. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-12/gbp-n1.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2026-12-03",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Websites for the businesses that keep local communities running: restaurants, salons, contractors, shops, clinics, studios. If you serve customers in person and want to be easier to find online, we can help. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-11/gbp-local.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2026-12-04",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Before you hire anyone for your website, ask: Can I see past work? Who owns the site? What does it cost? Who fixes it later? Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-12/gbp-n2.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2026-12-05",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Five things every small business website needs: a clear offer, easy contact info, real photos, reviews, and a layout that works on a phone. Missing a few? We can fix that. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-11/gbp-fivethings.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2026-12-07",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Your best reviews are your best sales pitch. Put them where new customers will actually see them. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-12/gbp-n3.jpg",
+  "status": "pending"
+ },
+ {
   "date": "2026-12-08",
   "time": "10:00",
   "tz": "America/New_York",
@@ -189,7 +208,46 @@
   "status": "pending"
  },
  {
-  "gbp": 7,
+  "date": "2026-12-09",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Let customers price their own job. A simple quote calculator on your site saves everyone a phone call. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-12/gbp-n4.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2026-12-10",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Visitors don't wait around. Aim for a page that loads in under 3 seconds; slower than that and many people leave before they see anything. Big photos and clutter are common causes. A fast, clean site keeps people reading. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-11/gbp-speed.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2026-12-12",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Three quick wins for your Google Business Profile: add real photos, keep your hours current, and post updates regularly. It takes minutes and helps people choose you. Want a website that backs it up? Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-11/gbp-wins.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2026-12-13",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Four quick checks before January: hours and prices, photos, contact info, and links. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-12/gbp-n5.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2026-12-14",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Fewer no-shows with automatic text reminders. Simple to set up, and customers like them. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-12/gbp-n6.jpg",
+  "status": "pending"
+ },
+ {
   "date": "2026-12-15",
   "time": "10:00",
   "tz": "America/New_York",
@@ -198,7 +256,30 @@
   "status": "pending"
  },
  {
-  "gbp": 8,
+  "date": "2026-12-17",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Real photos beat stock photos. Show your work, your space, and your team, in good light. Phone photos are fine if they're sharp. People hire people, not clip art. Need help placing them? Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-11/gbp-photos.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2026-12-19",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Can a visitor get from your home page to contacting you in 3 taps on a phone? If not, they'll leave. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-12/gbp-n7.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2026-12-20",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Add a map and directions to your website so customers can find you without guessing. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-12/gbp-n8.jpg",
+  "status": "pending"
+ },
+ {
   "date": "2026-12-22",
   "time": "10:00",
   "tz": "America/New_York",
@@ -207,7 +288,14 @@
   "status": "pending"
  },
  {
-  "gbp": 9,
+  "date": "2026-12-24",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Thank you for a great year. Happy holidays from all of us at Third Hand AI.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-12/gbp-n9.jpg",
+  "status": "pending"
+ },
+ {
   "date": "2026-12-29",
   "time": "10:00",
   "tz": "America/New_York",
@@ -216,7 +304,30 @@
   "status": "pending"
  },
  {
-  "gbp": 10,
+  "date": "2026-12-31",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Thank you for 2026. See you in 2027.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2026-12/gbp-n10.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2027-01-01",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Holiday hours are over. Update your hours on Google and on your website so customers always know when you're open. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-p1.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2027-01-03",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Customers often pick whoever answers first. Reply to new inquiries within minutes and you'll win more jobs. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-p2.jpg",
+  "status": "pending"
+ },
+ {
   "date": "2027-01-05",
   "time": "10:00",
   "tz": "America/New_York",
@@ -225,7 +336,38 @@
   "status": "pending"
  },
  {
-  "gbp": 11,
+  "date": "2027-01-06",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Fancy fonts look nice but cost you readers. Pick a bold, clear font with room to breathe. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-q1.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2027-01-07",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "If you offer it, list it. Add every service to your website and your Google profile so customers find you for each one. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-p3.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2027-01-09",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Visitors decide in seconds. Make sure the first screen says what you do, shows your phone number, and has one clear button. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-p4.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2027-01-10",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Add a short description to every photo on your site. It helps screen readers and Google understand what's in it. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-q2.jpg",
+  "status": "pending"
+ },
+ {
   "date": "2027-01-12",
   "time": "10:00",
   "tz": "America/New_York",
@@ -234,7 +376,46 @@
   "status": "pending"
  },
  {
-  "gbp": 12,
+  "date": "2027-01-13",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Every page needs a clear title and sections that make sense. It helps visitors and Google. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-q3.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2027-01-14",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Give every page one job: call, book, or ask for a quote. Fewer choices means more action. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-p5.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2027-01-16",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "A fresh site gets trusted. Once a month, update your hours, add a photo, or share a new offer. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-p6.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2027-01-17",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "A quick, kind reply to every review shows new customers you care. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-q4.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2027-01-18",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Open or closed on Monday, Jan 18? Post your MLK Day hours early so customers never have to guess. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-p7.jpg",
+  "status": "pending"
+ },
+ {
   "date": "2027-01-19",
   "time": "10:00",
   "tz": "America/New_York",
@@ -243,7 +424,30 @@
   "status": "pending"
  },
  {
-  "gbp": 13,
+  "date": "2027-01-21",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Your website should look great on a computer, tablet, and phone. Test yours on all three. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-p8.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2027-01-23",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Say thanks on day 0, check in on day 3, and ask for a review on day 14. Simple messages keep customers coming back. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-p9.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2027-01-24",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "People trust people. Add your team's names and faces to your website. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-q5.jpg",
+  "status": "pending"
+ },
+ {
   "date": "2027-01-26",
   "time": "10:00",
   "tz": "America/New_York",
@@ -252,7 +456,22 @@
   "status": "pending"
  },
  {
-  "gbp": 14,
+  "date": "2027-01-28",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Track visitors, calls, and form fills so you know what's working and what to fix. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-p10.jpg",
+  "status": "pending"
+ },
+ {
+  "date": "2027-01-30",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Your name, address, and phone should match on Google, your website, and social. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-01/gbp-q6.jpg",
+  "status": "pending"
+ },
+ {
   "date": "2027-02-02",
   "time": "10:00",
   "tz": "America/New_York",
@@ -261,7 +480,14 @@
   "status": "pending"
  },
  {
-  "gbp": 15,
+  "date": "2027-02-05",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "A simple welcome offer gives new customers a reason to call today. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-02/gbp-q7.jpg",
+  "status": "pending"
+ },
+ {
   "date": "2027-02-09",
   "time": "10:00",
   "tz": "America/New_York",
@@ -270,7 +496,14 @@
   "status": "pending"
  },
  {
-  "gbp": 16,
+  "date": "2027-02-12",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "After someone fills out your form, tell them what happens next. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-02/gbp-q8.jpg",
+  "status": "pending"
+ },
+ {
   "date": "2027-02-16",
   "time": "10:00",
   "tz": "America/New_York",
@@ -279,7 +512,14 @@
   "status": "pending"
  },
  {
-  "gbp": 17,
+  "date": "2027-02-19",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Licenses, insurance, and awards build trust. Put them where customers can see them. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-02/gbp-q9.jpg",
+  "status": "pending"
+ },
+ {
   "date": "2027-02-23",
   "time": "10:00",
   "tz": "America/New_York",
@@ -288,7 +528,14 @@
   "status": "pending"
  },
  {
-  "gbp": 34,
+  "date": "2027-02-26",
+  "time": "10:00",
+  "tz": "America/New_York",
+  "text": "Spring is almost here. Refresh your photos, check your hours, and add a new offer. Free quote at thirdhandai.com.",
+  "photo_url": "https://raw.githubusercontent.com/thirdhand-ai/social-assets/main/2027-02/gbp-q10.jpg",
+  "status": "pending"
+ },
+ {
   "date": "2027-03-02",
   "time": "10:00",
   "tz": "America/New_York",
@@ -297,7 +544,6 @@
   "status": "pending"
  },
  {
-  "gbp": 35,
   "date": "2027-03-09",
   "time": "10:00",
   "tz": "America/New_York",
@@ -306,7 +552,6 @@
   "status": "pending"
  },
  {
-  "gbp": 36,
   "date": "2027-03-16",
   "time": "10:00",
   "tz": "America/New_York",
@@ -315,7 +560,6 @@
   "status": "pending"
  },
  {
-  "gbp": 37,
   "date": "2027-03-23",
   "time": "10:00",
   "tz": "America/New_York",
@@ -324,7 +568,6 @@
   "status": "pending"
  },
  {
-  "gbp": 38,
   "date": "2027-03-30",
   "time": "10:00",
   "tz": "America/New_York",
